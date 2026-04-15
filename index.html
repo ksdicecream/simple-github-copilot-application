@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Portfolio</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+        <p class="hero-subtitle">A passionate developer building things for the web.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a web developer who loves creating clean, responsive, and
+          user-friendly websites. I enjoy turning ideas into reality through
+          code and am always eager to learn new technologies.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-item">HTML</li>
+          <li class="skill-item">CSS</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">React</li>
+          <li class="skill-item">Node.js</li>
+          <li class="skill-item">Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>A short description of the project and the technologies used.</p>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </article>
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>A short description of the project and the technologies used.</p>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </article>
+          <article class="project-card">
+            <h3>Project Three</h3>
+            <p>A short description of the project and the technologies used.</p>
+            <a href="#" class="btn btn-sm">View Project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form class="contact-form">
+          <fieldset>
+            <legend>Interested in working together? Reach out!</legend>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
